@@ -15,13 +15,13 @@ export default function Home() {
 
           <button className="mt-12 border rounded-md bg-purple-400 hover:bg-purple-500 text-white h-10 font-bold">Log in</button>
           <div className="flex justify-center mt-4">
-          <p className="text-gray-500 text-xs">Don't have an account <a href="" className="text-purple-500 hover:text-purple-700 ">Sign up</a> </p>
+          <p className="text-gray-500 text-xs">Dont have an account <a href="" className="text-purple-500 hover:text-purple-700 ">Sign up</a> </p>
           </div>
           <a href="" className="text-purple-500 flex justify-center mt-4 text-sm font-bold">Forget password?</a>
 
         </div>
       </div>
-      <div className="grid col-span-7 bg-purple-900"></div>
+      <div className="grid col-span-7 bg-purple-900 relative"></div>
     </div>
   )
 }
